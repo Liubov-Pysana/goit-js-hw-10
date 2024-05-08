@@ -1,4 +1,12 @@
 /* Reset styles */
+input,
+button,
+fieldset,
+section {
+  box-sizing: border-box;
+  gap: 24px;
+}
+
 h1,
 h2,
 h3,

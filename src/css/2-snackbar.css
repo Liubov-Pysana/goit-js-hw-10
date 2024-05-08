@@ -1,0 +1,48 @@
+section {
+  width: 360px;
+}
+
+form {
+  margin-top: 24px;
+}
+
+button {
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  color: #ffffff;
+  margin-top: 32px;
+  width: 100%;
+}
+button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
+
+body,
+input,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+fieldset {
+  margin-top: 16px;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #808080;
+}
+
+input[name='delay'] {
+  display: flex;
+  width: 100%;
+  border: 1px solid #808080;
+  margin-top: 8px;
+}
+
+input {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #808080;
+}
